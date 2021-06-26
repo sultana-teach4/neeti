@@ -1,0 +1,62 @@
+h1 {
+    color:rgb(2, 5, 5);
+}
+
+
+.header{
+    background-color: blueviolet;
+    display:flex;
+    justify-content:space-evenly;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: larger;
+}
+.about{
+    background-color: cyan;
+    display: flex;
+    font-size: larger;
+    
+}
+.intro{
+    color:maroon;
+    background-color: lightgray;
+    
+}
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+
+     
+    justify-content:space-evenly;
+    border:space-around
+}
+.projects img{
+
+    border-radius: 10px;
+    width:310px;
+}
+.project2{
+    display:flex;
+    justify-content:space-around;
+    border-width: 200px;
+    
+}
+.project2 img{
+
+    border-radius: 10px;
+    width:310px;
+    height: 250px;
+}
+.p1{
+    border-radius: 20px;
+    background-color:whitesmoke;
+    
+    width:310px;
+    font-family: fantasy;
+}
+p{
+    color:lime;
+}
+body{
+    background-color: rgb(128, 128, 128);
+}
